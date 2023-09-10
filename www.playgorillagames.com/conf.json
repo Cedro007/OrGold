@@ -1,0 +1,268 @@
+{
+    "enabledProducts": {
+        "live": true,
+        "pre_match": true,
+        "live_calendar": true,
+        "statistics": true,
+        "casino": true,
+        "live_casino": true,
+        "tournaments": true,
+        "jackpots": true,
+        "games": true,
+        "e_sports": true,
+        "virtual_sports": true,
+        "tv_games": true,
+        "horse_racing": true,
+        "wonder_wheel": true,
+        "promotions": true,
+        "results": true,
+        "virtual_sports_bc": true,
+        "virtual_sports_lig": true,
+        "virtual_sport_ds": true,
+        "sport_tournaments": true,
+        "casino_tournaments": true,
+        "tv_game_atm": true,
+        "world_cup": true
+    },
+    "cms": {
+        "cacheLayerSubdomain": "go"
+    },
+    "app": {
+        "footer": {
+            "copyrightSince": 2021,
+            "showAgeRestriction": true
+        },
+        "preferences": {
+            "language": "eng",
+            "timeFormat": "24h",
+            "oddFormat": 0,
+            "hideBalance": false,
+            "theme": "default"
+        },
+        "availableLanguages": {
+            "eng": {
+                "short": "EN",
+                "full": "English",
+                "order": 1,
+                "rtl": false
+            },
+            "fra": {
+                "short": "FR",
+                "full": "Français",
+                "order": 2
+            },
+            "swa": {
+                "short": "SW",
+                "full": "Swahili",
+                "order": "3"
+            },
+            "kin": {
+                "short": "RW",
+                "full": "Kinyarwanda",
+                "order": 4
+            },
+            "chi": {
+                "full": "繁体中文",
+                "order": 9,
+                "short": "CN"
+            }
+        },
+        "site_id": 1334,
+        "siteName": "Playgorillagames",
+        "swarm": {
+            "socketUrl": "wss:\/\/eu-swarm-newm.betconstruct.com"
+        },
+        "logo": {
+            "source": "\/logo.png"
+        },
+        "socialIcons": [
+            {
+                "network": "twitter",
+                "url": {
+                    "default": "https:\/\/twitter.com\/GorillaGamesRw"
+                }
+            },
+            {
+                "url": {
+                    "default": "https:\/\/web.facebook.com\/gorillagamesrw\/"
+                },
+                "network": "facebook"
+            },
+            {
+                "url": {
+                    "default": "https:\/\/www.instagram.com\/gorillagamesrw\/"
+                },
+                "network": "instagram"
+            }
+        ],
+        "availableCountriesList": [
+            "RW"
+        ],
+        "themes": [
+            {
+                "title": "Default theme",
+                "theme": "default",
+                "scheme": {
+                    "b": "#fff",
+                    "hero": "#EC1087",
+                    "accent": "#fff000",
+                    "oc-1": "#1c226b",
+                    "oc-2": "#3A0088"
+                }
+            }
+        ],
+        "socialSharingPlatforms": [
+            "facebook",
+            "twitter",
+            "telegram",
+            "whatsapp",
+            "vk"
+        ],
+        "tracking": {
+            "googleAnalyticsId": "UA-172831897-1"
+        },
+        "partnerHost": "https:\/\/www.playgorillagames.com"
+    },
+    "userAuthentication": {
+        "registration": {
+            "autoSetCurrency": {
+                "enabled": true,
+                "availableList": {}
+            },
+            "minimumAllowedAgeByCountry": {
+                "default": "18"
+            }
+        }
+    },
+    "statistics": {
+        "enabled": true,
+        "showTeamLogos": true,
+        "host": "https:\/\/statistics.fjykjczttspydxcx.com"
+    },
+    "sportsbook": {
+        "betCloud": {
+            "enabled": false
+        },
+        "betslip": {
+            "contentTabs": [
+                {
+                    "type": 3,
+                    "title": "Booking",
+                    "loginRequired": false
+                },
+                {
+                    "type": 0,
+                    "title": "Betslip"
+                }
+            ]
+        },
+        "specialOptions": [
+            {
+                "label": "Upcoming Matches",
+                "value": "upcoming-matches"
+            },
+            {
+                "label": "Popular Matches",
+                "value": "popular-matches"
+            },
+            {
+                "label": "Popular competitions",
+                "value": "popular-competitions"
+            },
+            {
+                "label": "Multiple of the day",
+                "value": "multiple-of-the-day"
+            },
+            {
+                "label": "Boosted bets",
+                "value": "boosted-bets"
+            }
+        ],
+        "enabled": true,
+        "availableBetTypes": [
+            {
+                "name": "Single",
+                "value": 1
+            },
+            {
+                "name": "Multiple",
+                "value": 2
+            },
+            {
+                "name": "System",
+                "value": 3
+            }
+        ],
+        "shareBooking": {
+            "enabled": true
+        },
+        "animations": {
+            "kievAnimation": {
+                "timer": false
+            }
+        },
+        "betBuilder": {
+            "enabled": true,
+            "apiUrl": "https:\/\/betconstruct-prod-gen2.sportcastlive.com\/markets",
+            "apiKey": "a6aa080b-cea9-4e3f-aa02-9fef8d1f0c8f",
+            "params": "&brand=default"
+        }
+    },
+    "releaseDate": "2023-08-28 16:09:37",
+    "accountNavigation": {
+        "history": {
+            "order": 4,
+            "pages": [
+                "bets",
+                "open-bets",
+                "cashed-out",
+                "won",
+                "lost",
+                "returned",
+                "won-return",
+                "lost-return"
+            ]
+        },
+        "balance": {
+            "order": 2,
+            "pages": [
+                "deposit",
+                "withdraw",
+                "history"
+            ]
+        },
+        "bonuses": {
+            "order": 3,
+            "pages": [
+                "loyalty-points",
+                "sport",
+                "casino",
+                "casino-free-spins",
+                "bonus-history",
+                "promo-code",
+                "refer-to-friend"
+            ]
+        },
+        "profile": {
+            "order": 1,
+            "pages": [
+                "details",
+                "change-password",
+                "verify-account",
+                "timeout-limits",
+                "deposit-limits"
+            ]
+        },
+        "messages": {
+            "order": 5,
+            "pages": [
+                "inbox",
+                "sent",
+                "new"
+            ]
+        },
+        "cashback-cashout": {
+            "pages": []
+        }
+    }
+}

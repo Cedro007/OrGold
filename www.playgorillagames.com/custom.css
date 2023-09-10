@@ -1,0 +1,84 @@
+.loyaltyButtons-bc button {
+    display: none !important;
+}
+
+.loyaltyButtons-bc button+a {
+    margin-inline-start: 10px !important;
+}
+
+.market-game-odd {
+    color: #ec1087 !important;
+}
+
+.bet-history-odds-title {
+    color: #ec1087 !important;
+}
+
+.bet-history-odds-coeff {
+    color: #ec1087 !important;
+}
+
+.c-info-icon-bc.bc-i-bet-builder {
+    color: #ec1087 !important;
+}
+
+.Soccer-bg {
+    background: #ec1087 !important;
+}
+
+.Tennis-bg {
+    background: #ec1087 !important;
+}
+
+.sp-sub-list-bc.upcoming-matches.a-color .sp-s-l-head-bc,
+.sp-sub-list-bc.upcoming-matches.selected .sp-s-l-head-bc {
+    background: #ec1087 !important;
+    background: linear-gradient(90deg, #ec1087 0, #ff008b) !important;
+}
+
+.sp-sub-list-bc.popular-matches.a-color .sp-s-l-head-bc,
+.sp-sub-list-bc.popular-matches.selected .sp-s-l-head-bc {
+    background: #ec1087 !important;
+    background: linear-gradient(90deg, #ec1087 0, #ff008b) !important;
+}
+
+.sp-sub-list-bc.multiple-of-the-day.a-color .sp-s-l-head-bc,
+.sp-sub-list-bc.multiple-of-the-day.selected .sp-s-l-head-bc {
+    background: #ec1087 !important;
+    background: linear-gradient(90deg, #ec1087 0, #ff008b) !important;
+}
+
+.sp-sub-list-bc.boosted-bets.a-color .sp-s-l-head-bc,
+.sp-sub-list-bc.boosted-bets.selected .sp-s-l-head-bc {
+    background: #ec1087 !important;
+    background: linear-gradient(90deg, #ec1087 0, #ff008b) !important;
+}
+
+.sp-sub-list-bc.upcoming-matches:hover .sp-s-l-head-bc {
+    background: #ec1087 !important;
+    box-shadow: 0 0 8px 0 #ec1087 !important;
+}
+
+.sp-sub-list-bc.popular-matches:hover .sp-s-l-head-bc {
+    background: #ec1087 !important;
+    box-shadow: 0 0 8px 0 #ec1087 !important;
+}
+
+.sp-sub-list-bc.popular-competitions:hover .sp-s-l-head-bc {
+    background: #ec1087 !important;
+    box-shadow: 0 0 8px 0 #ec1087 !important;
+}
+
+.sp-sub-list-bc.multiple-of-the-day:hover .sp-s-l-head-bc {
+    background: #ec1087 !important;
+    box-shadow: 0 0 8px 0 #ec1087 !important;
+}
+
+.sp-sub-list-bc.boosted-bets:hover .sp-s-l-head-bc {
+    background: #ec1087 !important;
+    box-shadow: 0 0 8px 0 #ec1087 !important;
+}
+
+.game-details-c-body-count-bc>.game-details-c-body-numbers-bc:nth-child(2) .game-details-c-b-r-c-score-item-bc.point {
+    color: #EC1087 ! important;
+}
